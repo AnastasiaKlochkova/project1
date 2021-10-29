@@ -1,4 +1,6 @@
-#!/home/anastasia/project1/web_service/venv/bin/python3
+#!/bin/sh
+'''exec' "/home/anastasia/introduction to IT/WebService/venv/bin/python" "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys

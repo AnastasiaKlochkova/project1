@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <title>Login</title>
 </head>
-<body style="background-color: red"> # сделали красный фон
+<body style="background-color: gray">
 <center>
-    <form action="http://127.0.0.1:5000/login/" method="post"> # вместо "" пустого, встали полную ссылку
+    <form action="http://127.0.0.1:5000/login/" method="post">
         <p>
             <label for="username">Username</label>
-            <input type="text" name="username" required> # required делает так чтобы не вводились пустые значения
+            <input type="text" name="username" required>
         </p>
         <p>
             <label for="password">Password</label>
-            <input type="password" name="password" required> # required делает так чтобы не вводились пустые значения
+            <input type="password" name="password" required>
         </p>
         <p>
-            <input type="submit">
+            <input type="submit" value="login" name="login">
         </p>
+    </form>
+    <form action="http://127.0.0.1:5000/login/" method="post">
+        <input type="submit" value="registration" name="registration">
     </form>
 </center>
 </body>
